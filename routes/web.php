@@ -16,8 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {return view('index');});
 Route::get('/juegos', function () {return view('juegos');});
 Route::get('/informacion', function () {return view('informacion');});
-<<<<<<< HEAD
 Route::get('/formulario', function () {return view('formulario');});
-=======
-Route::get('/formulario', function () {return view('formulario');});
->>>>>>> main
