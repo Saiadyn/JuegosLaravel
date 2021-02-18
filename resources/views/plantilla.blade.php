@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-Hola
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,6 +15,8 @@ Hola
         body{
             width:90%;
             margin:0 auto;
+            background-color:black;
+            color:white;
         }
         a:hover{
             text-decoration:none;
@@ -43,4 +42,3 @@ Hola
     </footer>
 </body>
 </html>
->>>>>>> Santi
