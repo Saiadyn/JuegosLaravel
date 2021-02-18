@@ -29,7 +29,7 @@
             <div class="col py-2 border border-dark bg-primary"><a class="text-light" href="/">HOME</a></div>
             <div class="col py-2 border border-dark bg-primary"><a class="text-light" href="#">WEB 2</a></div>
             <div class="col py-2 border border-dark bg-primary"><a class="text-light" href="#">WEB 3</a></div>
-            <div class="col py-2 border border-dark bg-primary"><a class="text-light" href="#">WEB 4</a></div>
+            <div class="col py-2 border border-dark bg-primary"><a class="text-light" href="/formulario">WEB 4</a></div>
         </div>
     </header>
 

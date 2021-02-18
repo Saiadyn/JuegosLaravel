@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {return view('index');});
-Route::get('/inicio', function () {return view('welcome');});
-Route::get('/pagina1', function () {return view('welcome');});
-Route::get('/pagina2', function () {return view('welcome');});
-Route::get('/formulario', function () {return view('welcome');});
+Route::get('/juegos', function () {return view('juegos');});
+Route::get('/informacion', function () {return view('informacion');});
+Route::get('/formulario', function () {return view('formulario');});
