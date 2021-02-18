@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FormularioController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,3 +18,9 @@ Route::get('/', function () {return view('index');});
 Route::get('/juegos', function () {return view('juegos');});
 Route::get('/informacion', function () {return view('informacion');});
 Route::get('/formulario', function () {return view('formulario');});
+
+
+
+/*Datos formulario*/ 
+
+Route::post("/formulario",[FormularioController::class,"store"])->name("formulario.store");
